@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #0a0a0a;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+.game-container {
+    text-align: center;
+    background: rgb(59, 54, 80);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: whitesmoke 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input{
+    padding: 10px;
+    border-radius:  5px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: rgb(84, 92, 92);
+    border:color(from color srgb r g b);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    box-shadow: black;
+    border: #0a0a0a;
+}
+
+button:hover{
+    background-color: rgb(207, 145, 52);
+}
+
+#message{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#attempts{
+    color: gray;
+}
